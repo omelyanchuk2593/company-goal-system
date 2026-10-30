@@ -55,7 +55,7 @@ python tools/install.py --target both
 установки. В Claude Code вызовите `/company-goal-system`, в Codex —
 `$company-goal-system` или явно попросите использовать скилл.
 
-Без Python скачайте архив из Releases и скопируйте **папку
+Без Python скачайте архив из [Releases](https://github.com/omelyanchuk2593/company-goal-system/releases/latest) и скопируйте **папку
 `company-goal-system` целиком**, вместе с references/assets/scripts, в нужную
 папку skills. Python нужен только для автоматического аудита CSV; основной
 диалог работает без него. Это инструкция для локальных Claude Code/Codex;
