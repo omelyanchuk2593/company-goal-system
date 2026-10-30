@@ -1,0 +1,6 @@
+interface:
+  display_name: "Система целей компании"
+  short_description: "Пять корзин, согласование и проверка результата"
+  default_prompt: "Используй $company-goal-system, чтобы помочь мне выстроить систему целей компании и подготовить первый рабочий набор целей."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+dist/
+goal-system/
+private/
+*.vtt
+*.pptx
+*.pptm
+*.env
+.env*

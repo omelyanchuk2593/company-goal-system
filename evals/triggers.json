@@ -1,0 +1,11 @@
+{
+  "scope": "Manual description-routing evaluation; not a measurement of product runtime discovery.",
+  "cases": [
+    {"prompt": "Помоги внедрить цели компании: сейчас у всех по 12 KPI и никто их не помнит", "should_trigger": true},
+    {"prompt": "Проверь портфель сотрудника по пяти корзинам и поправь формулировки", "should_trigger": true},
+    {"prompt": "Нужна проверка выполнения согласованной командной цели с evidence и спором с PM", "should_trigger": true},
+    {"prompt": "Объясни за минуту что значит аббревиатура SMART", "should_trigger": false},
+    {"prompt": "Составь мне личный трекер привычек: сон и зарядка", "should_trigger": false},
+    {"prompt": "Разбей готовую техническую задачу на тикеты для спринта", "should_trigger": false}
+  ]
+}

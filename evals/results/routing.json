@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "method": "Six separate clean-context agents, each given only the skill description and one query; manual description routing, not runtime discovery.",
+  "passed": 6,
+  "total": 6,
+  "results": [
+    {"case": 1, "expected": true, "load": true, "reason": "Запрос прямо касается внедрения целей компании и пересмотра перегруженных KPI сотрудников."},
+    {"case": 2, "expected": true, "load": true, "reason": "Запрос прямо касается проверки портфеля целей сотрудника по пяти корзинам и правки формулировок."},
+    {"case": 3, "expected": true, "load": true, "reason": "Запрос относится к проверке достижения согласованной командной цели и разбору подтверждающих данных."},
+    {"case": 4, "expected": false, "load": false, "reason": "Запрос — общее объяснение SMART, явно исключённое из области применения навыка."},
+    {"case": 5, "expected": false, "load": false, "reason": "Личный трекер привычек прямо исключён из области применения навыка."},
+    {"case": 6, "expected": false, "load": false, "reason": "Запрос о декомпозиции технической задачи на тикеты, а не о системе целей компании."}
+  ]
+}
